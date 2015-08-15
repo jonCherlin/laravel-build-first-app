@@ -13,6 +13,10 @@
 
 Route::get('/', 'PagesController@home');
 
+/*NOTICES*/
+
+Route::resource('notices', 'NoticesController');
+
 /*Authentication*/
 
 Route::controllers([
